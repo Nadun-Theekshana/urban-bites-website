@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Urban Bites – fresh food, happy moments. Burgers, pizza, pasta and more.">
+  <title>Urban Bites – Restaurant</title>
+
+  <!-- Google Fonts: Playfair Display (headings) + Poppins (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🍔%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">Urban<span>Bites</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-btn">Book a Table</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Welcome to Urban Bites</p>
+          <h1>Fresh Food, Happy Moments.</h1>
+          <p class="hero-description">
+            Experience delicious meals made with fresh ingredients and a passion for great food.
+          </p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+            <a href="#contact" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80"
+               alt="Beautifully plated dish served at a restaurant table"
+               width="900" height="460" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section about">
+      <div class="container about-content">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+               alt="Warm and cozy interior of the Urban Bites dining room"
+               width="900" height="480" loading="lazy">
+        </div>
+
+        <div class="about-text">
+          <p class="eyebrow">About Us</p>
+          <h2>Welcome to Urban Bites</h2>
+          <p>
+            Urban Bites is a family-run neighbourhood restaurant serving comfort food with a modern twist.
+            Every dish is cooked to order using locally sourced ingredients, and our doors are always open
+            to friends, families and food lovers looking for a relaxed place to enjoy a great meal.
+          </p>
+
+          <div class="highlights">
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">🥗</span>
+              <h3>Fresh Ingredients</h3>
+              <p>Picked fresh every morning.</p>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">⭐</span>
+              <h3>Quality Food</h3>
+              <p>Made with care and flavour.</p>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon" aria-hidden="true">😊</span>
+              <h3>Friendly Service</h3>
+              <p>A warm welcome every visit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MENU SECTION ==================== -->
+    <section id="menu" class="section menu">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Our Menu</p>
+          <h2>Our Popular Dishes</h2>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                 alt="Classic cheeseburger with lettuce and tomato"
+               width="600" height="190" loading="lazy">
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3>Classic Burger</h3>
+                <span class="price">$12</span>
+              </div>
+              <p>Juicy beef patty, melted cheese, crisp lettuce and our house sauce.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+                 alt="Freshly baked Italian pizza with toppings"
+               width="600" height="190" loading="lazy">
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3>Italian Pizza</h3>
+                <span class="price">$15</span>
+              </div>
+              <p>Stone-baked crust with tomato sauce, mozzarella and fresh basil.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                 alt="Plate of creamy pasta with herbs"
+               width="600" height="190" loading="lazy">
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3>Creamy Pasta</h3>
+                <span class="price">$13</span>
+              </div>
+              <p>Silky cream sauce tossed with al dente pasta and fragrant herbs.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+                 alt="Grilled chicken served with vegetables"
+               width="600" height="190" loading="lazy">
+            <div class="card-body">
+              <div class="card-title-row">
+                <h3>Grilled Chicken</h3>
+                <span class="price">$17</span>
+              </div>
+              <p>Tender grilled chicken breast served with seasonal roasted vegetables.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Gallery</p>
+          <h2>A Taste of Urban Bites</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+               alt="Colourful plated meal with fresh garnish"
+               width="600" height="260" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+               alt="Fresh salad bowl with vegetables and greens"
+               width="600" height="260" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+               alt="Pizza topped with fresh vegetables and cheese"
+               width="600" height="260" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80"
+               alt="Inviting restaurant seating area with warm lighting"
+               width="600" height="260" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Contact &amp; Reservations</h2>
+        </div>
+
+        <div class="contact-content">
+
+          <!-- Contact details -->
+          <div class="contact-info">
+            <div class="info-block">
+              <h3><span aria-hidden="true">📍</span> Address</h3>
+              <p>123 Maple Street, Springfield</p>
+            </div>
+            <div class="info-block">
+              <h3><span aria-hidden="true">📞</span> Telephone</h3>
+              <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+            </div>
+            <div class="info-block">
+              <h3><span aria-hidden="true">✉️</span> Email</h3>
+              <p><a href="mailto:hello@urbanbites.example">hello@urbanbites.example</a></p>
+            </div>
+            <div class="info-block">
+              <h3><span aria-hidden="true">🕒</span> Opening Hours</h3>
+              <p>Monday – Friday: 11:00 AM – 10:00 PM</p>
+              <p>Saturday – Sunday: 9:00 AM – 11:00 PM</p>
+            </div>
+            <p class="demo-note">Urban Bites is a fictional restaurant created for a portfolio project. All details on this page are sample content.</p>
+          </div>
+
+          <!-- Contact form (visual demo only – no backend; GET keeps the page on #contact) -->
+          <form class="contact-form" action="#contact" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note">Demo form only: nothing is sent or stored.</p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Urban<span>Bites</span></a>
+        <p>Fresh food, happy moments. Join us for a meal made with love.</p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+
+    <p class="copyright">&copy; 2026 Urban Bites. Fictional restaurant for portfolio demonstration.</p>
+  </footer>
+
+</body>
+</html>
