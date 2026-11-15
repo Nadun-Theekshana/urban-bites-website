@@ -1,4 +1,3 @@
-# urban-bites-website
 # Urban Bites – Restaurant Website
 
 ## Project Overview
